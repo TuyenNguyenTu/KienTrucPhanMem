@@ -54,28 +54,35 @@ namespace Project.KienTrucPhanMem.Web
                 ///Menu tiếp nhân
                 .AddItem(
                     new MenuItemDefinition(
-                        "Roles",
-                        L("Roles"),
-                        url: "#users",
+                        "DangKyKham",
+                        L("DangKyKham"),
+                        url: "#dangkykham",
                         icon: "fa fa-tag",
-                        requiredPermissionName: PermissionNames.Pages_Users
+                        requiredPermissionName: PermissionNames.Pages_TiepNhans
                     ).AddItem(
                     new MenuItemDefinition(
-                        "Roles",
-                        L("Roles"),
+                        "QLBenhNhan",
+                        L("QLBenhNhan"),
                         url: "#users",
                         icon: "fa fa-tag",
-                        requiredPermissionName: PermissionNames.Pages_Users
+                        requiredPermissionName: PermissionNames.Pages_TiepNhans
                     )
-                ).AddItem(
+                    .AddItem(
                     new MenuItemDefinition(
-                        "Roles",
-                        L("Roles"),
+                        "QLPhieuDangKyKham",
+                        L("QLPhieuDangKyKham"),
                         url: "#users",
                         icon: "fa fa-tag",
-                        requiredPermissionName: PermissionNames.Pages_Users
+                        requiredPermissionName: PermissionNames.Pages_TiepNhans
                     )
-                )
+                    .AddItem(
+                    new MenuItemDefinition(
+                        "QLPhieuSuDungDichVu",
+                        L("QLPhieuSuDungDichVu"),
+                        url: "#users",
+                        icon: "fa fa-tag",
+                        requiredPermissionName: PermissionNames.Pages_TiepNhans
+                    ))))
                 )
                 .AddItem(
                     new MenuItemDefinition(

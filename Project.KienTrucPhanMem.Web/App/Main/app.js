@@ -40,6 +40,25 @@
 
                 $urlRouterProvider.otherwise('/users');
             }
+            if (abp.auth.hasPermission('Pages.Tiep_Nhan')){
+                $stateProvider
+                    .state('ql-benh-nhan', {
+                        url: '/ql-benh-nhan',
+                        templateUrl: '/App/Main/views/TiepNhan/index.cshtml',
+                        menu: 'Users'
+                    })
+                    .state('ql-phieu-dang-ky-kham', {
+                        url: '/ql-phieu-dang-ky-kham',
+                        templateUrl: '/App/Main/views/TiepNhan/phieudangky.cshtml',
+                        menu: 'Users'
+                    })
+                    .state('ql-phieu-su-dung-dich-vu', {
+                        url: '/ql-phieu-su-dung-dich-vu',
+                        templateUrl: '/App/Main/views/TiepNhan/dichvu.cshtml',
+                        menu: 'Users'
+                    })
+                $urlRouterProvider.otherwise('/users')
+            }
             if (abp.auth.hasPermission('Pages.Quan_Tri')) {
                 $stateProvider
                     //.state('users', {

@@ -10,12 +10,12 @@
 
         public const string Pages_Roles = "Pages.Roles";
 
-        public const string Pages_Bacsis = "Page.Bac_si";
+        public const string Pages_Bacsis = "Pages.Bac_si";
 
-        public const string Pages_QuanTris = "Page.Quan_Tri";
+        public const string Pages_QuanTris = "Pages.Quan_Tri";
 
-        public const string Pages_TiepNhans = "Page.Tiep_Nhan";
+        public const string Pages_TiepNhans = "Pages.Tiep_Nhan";
 
-        public const string Pages_ThuNgans = "Page.Thu_Ngan";
+        public const string Pages_ThuNgans = "Pages.Thu_Ngan";
     }
 }

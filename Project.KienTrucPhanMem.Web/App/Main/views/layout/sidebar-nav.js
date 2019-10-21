@@ -13,11 +13,18 @@
                 createMenuItem(App.localize("Roles"), "Pages.Users", "local_offer", "roles"),
                 createMenuItem(App.localize("About"), "", "info", "about"),
 
-                createMenuItem(App.localize("Menu"), "Pages.Users", "menu", "", [
-                    createMenuItem(App.localize("Roles"), "Pages.Users", "local_offer", "roles"),
-                    createMenuItem(App.localize("Roles"), "Pages.Users", "local_offer", "roles"),
-                    createMenuItem(App.localize("Roles"), "Pages.Users", "local_offer", "roles")
+                //createMenuItem(App.localize("Roles"), "Pages.Users", "local_offer", "", [
+                //    createMenuItem(App.localize("Roles"), "Pages.Users", "local_offer", "roles"),
+                //    createMenuItem(App.localize("Roles"), "Pages.Users", "local_offer", "roles"),
+                //    createMenuItem(App.localize("Roles"), "Pages.Users", "local_offer", "roles")
+                //]),
+
+                createMenuItem(App.localize("DangKyKham"), "Pages.Tiep_Nhan", "menu", "", [
+                    createMenuItem(App.localize("QLBenhNhan"), "Pages.Tiep_Nhan", "local_offer", "ql-benh-nhan"),
+                    createMenuItem(App.localize("QLPhieuDangKyKham"), "Pages.Tiep_Nhan", "local_offer", "ql-phieu-dang-ky-kham"),
+                    createMenuItem(App.localize("QLPhieuSuDungDichVu"), "Pages.Tiep_Nhan", "local_offer", "ql-phieu-su-dung-dich-vu")
                 ]),
+
                 createMenuItem(App.localize("MultiLevelMenu"), "", "menu", "", [
                     createMenuItem("ASP.NET Boilerplate", "", "", "", [
                         createMenuItem("Home", "", "", "https://aspnetboilerplate.com/?ref=abptmpl"),
