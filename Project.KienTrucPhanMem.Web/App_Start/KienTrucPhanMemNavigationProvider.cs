@@ -23,15 +23,17 @@ namespace Project.KienTrucPhanMem.Web
                         icon: "fa fa-home",
                         requiresAuthentication: true
                         )
-                ).AddItem(
+                )
+                .AddItem(
                     new MenuItemDefinition(
                         "Tenants",
                         L("Tenants"),
                         url: "#tenants",
                         icon: "fa fa-globe",
-                        requiredPermissionName: PermissionNames.Pages_Tenants
+                        requiredPermissionName: PermissionNames.Pages_Users
                         )
-                ).AddItem(
+                )
+                .AddItem(
                     new MenuItemDefinition(
                         "Users",
                         L("Users"),
@@ -39,14 +41,41 @@ namespace Project.KienTrucPhanMem.Web
                         icon: "fa fa-users",
                         requiredPermissionName: PermissionNames.Pages_Users
                         )
+                )
+                .AddItem(
+                    new MenuItemDefinition(
+                        "Roles",
+                        L("Roles"),
+                        url: "#users",
+                        icon: "fa fa-tag",
+                        requiredPermissionName: PermissionNames.Pages_Users
+                    )
+                )
+                ///Menu tiếp nhân
+                .AddItem(
+                    new MenuItemDefinition(
+                        "Roles",
+                        L("Roles"),
+                        url: "#users",
+                        icon: "fa fa-tag",
+                        requiredPermissionName: PermissionNames.Pages_Users
+                    ).AddItem(
+                    new MenuItemDefinition(
+                        "Roles",
+                        L("Roles"),
+                        url: "#users",
+                        icon: "fa fa-tag",
+                        requiredPermissionName: PermissionNames.Pages_Users
+                    )
                 ).AddItem(
                     new MenuItemDefinition(
                         "Roles",
                         L("Roles"),
                         url: "#users",
                         icon: "fa fa-tag",
-                        requiredPermissionName: PermissionNames.Pages_Roles
+                        requiredPermissionName: PermissionNames.Pages_Users
                     )
+                )
                 )
                 .AddItem(
                     new MenuItemDefinition(

@@ -8,11 +8,16 @@
             vm.menuItems = [
                 createMenuItem(App.localize("HomePage"), "", "home", "home"),
 
-                createMenuItem(App.localize("Tenants"), "Pages.Tenants", "business", "tenants"),
+                createMenuItem(App.localize("Tenants"), "Pages.Users", "business", "tenants"),
                 createMenuItem(App.localize("Users"), "Pages.Users", "people", "users"),
-                createMenuItem(App.localize("Roles"), "Pages.Roles", "local_offer", "roles"),
+                createMenuItem(App.localize("Roles"), "Pages.Users", "local_offer", "roles"),
                 createMenuItem(App.localize("About"), "", "info", "about"),
 
+                createMenuItem(App.localize("Menu"), "Pages.Users", "menu", "", [
+                    createMenuItem(App.localize("Roles"), "Pages.Users", "local_offer", "roles"),
+                    createMenuItem(App.localize("Roles"), "Pages.Users", "local_offer", "roles"),
+                    createMenuItem(App.localize("Roles"), "Pages.Users", "local_offer", "roles")
+                ]),
                 createMenuItem(App.localize("MultiLevelMenu"), "", "menu", "", [
                     createMenuItem("ASP.NET Boilerplate", "", "", "", [
                         createMenuItem("Home", "", "", "https://aspnetboilerplate.com/?ref=abptmpl"),
