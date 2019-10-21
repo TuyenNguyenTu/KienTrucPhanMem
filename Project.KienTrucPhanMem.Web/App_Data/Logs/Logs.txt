@@ -1,0 +1,236 @@
+DEBUG 2019-10-21 08:52:00,394 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-10-21 08:52:00,409 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-10-21 08:52:00,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.KienTrucPhanMem.Web.KienTrucPhanMemWebModule, Project.KienTrucPhanMem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.KienTrucPhanMem.KienTrucPhanMemDataModule, Project.KienTrucPhanMem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.KienTrucPhanMem.KienTrucPhanMemCoreModule, Project.KienTrucPhanMem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.KienTrucPhanMem.KienTrucPhanMemApplicationModule, Project.KienTrucPhanMem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.KienTrucPhanMem.Api.KienTrucPhanMemWebApiModule, Project.KienTrucPhanMem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:00,425 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-10-21 08:52:00,713 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-21 08:52:00,713 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-21 08:52:00,713 [1    ] o.Configuration.LanguageManagementConfig - Converted KienTrucPhanMem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-21 08:52:00,713 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-21 08:52:01,095 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.KienTrucPhanMem.EntityFramework.KienTrucPhanMemDbContext, Project.KienTrucPhanMem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 08:52:04,184 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-10-21 08:52:04,254 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-10-21 08:52:04,272 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-10-21 08:52:04,280 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: KienTrucPhanMem
+DEBUG 2019-10-21 08:52:04,290 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-10-21 08:52:04,483 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-21 08:52:04,699 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2019-10-21 08:52:04,700 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-10-21 08:52:04,709 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-10-21 08:52:04,710 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Users.Dto.CreateUserDto
+DEBUG 2019-10-21 08:52:04,710 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Users.Dto.UpdateUserDto
+DEBUG 2019-10-21 08:52:04,710 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Users.Dto.UserDto
+DEBUG 2019-10-21 08:52:04,710 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Roles.Dto.PermissionDto
+DEBUG 2019-10-21 08:52:04,710 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-10-21 08:52:04,710 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.MultiTenancy.Dto.EditTenantDto
+DEBUG 2019-10-21 08:52:04,710 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.MultiTenancy.Dto.TenantDto
+DEBUG 2019-10-21 08:52:04,710 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Web.Models.Account.TenantChangeViewModel
+DEBUG 2019-10-21 08:52:04,711 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-10-21 08:52:08,243 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-10-21 08:52:08,244 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-10-21 08:52:08,246 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-10-21 08:52:08,247 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-10-21 08:52:08,250 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2019-10-21 08:52:08,251 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2019-10-21 08:52:14,914 [6    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2019-10-21 08:52:40,281 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"84277682-852e-4abc-8cb6-8651e450c53d","IpAddress":"192.168.1.43","TenantId":null,"UserId":1,"ConnectTime":"2019-10-21T08:52:40.2757649+07:00","Properties":{}}
+DEBUG 2019-10-21 08:52:40,334 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 84277682-852e-4abc-8cb6-8651e450c53d
+WARN  2019-10-21 08:52:52,836 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'KienTrucPhanMem'!
+DEBUG 2019-10-21 09:02:29,160 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-10-21 09:02:29,178 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-10-21 09:02:29,186 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.KienTrucPhanMem.Web.KienTrucPhanMemWebModule, Project.KienTrucPhanMem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.KienTrucPhanMem.KienTrucPhanMemDataModule, Project.KienTrucPhanMem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.KienTrucPhanMem.KienTrucPhanMemCoreModule, Project.KienTrucPhanMem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.KienTrucPhanMem.KienTrucPhanMemApplicationModule, Project.KienTrucPhanMem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.KienTrucPhanMem.Api.KienTrucPhanMemWebApiModule, Project.KienTrucPhanMem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:29,192 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-10-21 09:02:29,507 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-21 09:02:29,507 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-21 09:02:29,507 [1    ] o.Configuration.LanguageManagementConfig - Converted KienTrucPhanMem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-21 09:02:29,507 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-21 09:02:29,934 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.KienTrucPhanMem.EntityFramework.KienTrucPhanMemDbContext, Project.KienTrucPhanMem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:02:32,732 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-10-21 09:02:32,783 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-10-21 09:02:32,801 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-10-21 09:02:32,810 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: KienTrucPhanMem
+DEBUG 2019-10-21 09:02:32,817 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-10-21 09:02:32,941 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-21 09:02:33,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2019-10-21 09:02:33,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-10-21 09:02:33,011 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-10-21 09:02:33,011 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Users.Dto.CreateUserDto
+DEBUG 2019-10-21 09:02:33,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Users.Dto.UpdateUserDto
+DEBUG 2019-10-21 09:02:33,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Users.Dto.UserDto
+DEBUG 2019-10-21 09:02:33,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Roles.Dto.PermissionDto
+DEBUG 2019-10-21 09:02:33,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-10-21 09:02:33,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.MultiTenancy.Dto.EditTenantDto
+DEBUG 2019-10-21 09:02:33,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.MultiTenancy.Dto.TenantDto
+DEBUG 2019-10-21 09:02:33,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Web.Models.Account.TenantChangeViewModel
+DEBUG 2019-10-21 09:02:33,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-10-21 09:02:35,496 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-10-21 09:02:35,497 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-10-21 09:02:35,498 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-10-21 09:02:35,499 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-10-21 09:02:35,500 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2019-10-21 09:02:35,500 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2019-10-21 09:02:49,374 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"54b9e2e1-56f5-4a2a-8814-5065dc4f7127","IpAddress":"192.168.1.43","TenantId":null,"UserId":1,"ConnectTime":"2019-10-21T09:02:49.3678556+07:00","Properties":{}}
+DEBUG 2019-10-21 09:02:49,407 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 54b9e2e1-56f5-4a2a-8814-5065dc4f7127
+DEBUG 2019-10-21 09:03:00,186 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 54b9e2e1-56f5-4a2a-8814-5065dc4f7127
+DEBUG 2019-10-21 09:03:01,066 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"bca96475-fbae-438a-a0b9-0528afc672f4","IpAddress":"192.168.1.43","TenantId":null,"UserId":1,"ConnectTime":"2019-10-21T09:03:01.0663485+07:00","Properties":{}}
+DEBUG 2019-10-21 09:03:01,072 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: bca96475-fbae-438a-a0b9-0528afc672f4
+WARN  2019-10-21 09:03:08,517 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Administrators' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:03:08,519 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Bacsis' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:03:08,520 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'ThuNgans' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:03:08,521 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'TiepNhans' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:03:08,521 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'QuanTris' in localization source 'KienTrucPhanMem'!
+DEBUG 2019-10-21 09:06:04,849 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-10-21 09:06:04,864 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-10-21 09:06:04,871 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.KienTrucPhanMem.Web.KienTrucPhanMemWebModule, Project.KienTrucPhanMem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.KienTrucPhanMem.KienTrucPhanMemDataModule, Project.KienTrucPhanMem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.KienTrucPhanMem.KienTrucPhanMemCoreModule, Project.KienTrucPhanMem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.KienTrucPhanMem.KienTrucPhanMemApplicationModule, Project.KienTrucPhanMem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.KienTrucPhanMem.Api.KienTrucPhanMemWebApiModule, Project.KienTrucPhanMem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:04,880 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-10-21 09:06:05,163 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-21 09:06:05,163 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-21 09:06:05,163 [1    ] o.Configuration.LanguageManagementConfig - Converted KienTrucPhanMem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-21 09:06:05,163 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-21 09:06:05,529 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.KienTrucPhanMem.EntityFramework.KienTrucPhanMemDbContext, Project.KienTrucPhanMem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-21 09:06:08,304 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-10-21 09:06:08,356 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-10-21 09:06:08,373 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-10-21 09:06:08,380 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: KienTrucPhanMem
+DEBUG 2019-10-21 09:06:08,387 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-10-21 09:06:08,517 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-21 09:06:08,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2019-10-21 09:06:08,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-10-21 09:06:08,629 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-10-21 09:06:08,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Users.Dto.CreateUserDto
+DEBUG 2019-10-21 09:06:08,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Users.Dto.UpdateUserDto
+DEBUG 2019-10-21 09:06:08,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Users.Dto.UserDto
+DEBUG 2019-10-21 09:06:08,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Roles.Dto.PermissionDto
+DEBUG 2019-10-21 09:06:08,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-10-21 09:06:08,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.MultiTenancy.Dto.EditTenantDto
+DEBUG 2019-10-21 09:06:08,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.MultiTenancy.Dto.TenantDto
+DEBUG 2019-10-21 09:06:08,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Web.Models.Account.TenantChangeViewModel
+DEBUG 2019-10-21 09:06:08,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.KienTrucPhanMem.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-10-21 09:06:10,963 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-10-21 09:06:10,966 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-10-21 09:06:10,967 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-10-21 09:06:10,967 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-10-21 09:06:10,969 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2019-10-21 09:06:10,970 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.KienTrucPhanMem.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2019-10-21 09:06:25,204 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9779b8aa-3edf-41a2-a3a4-5c971200421c","IpAddress":"192.168.1.43","TenantId":null,"UserId":1,"ConnectTime":"2019-10-21T09:06:25.1924893+07:00","Properties":{}}
+DEBUG 2019-10-21 09:06:25,291 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9779b8aa-3edf-41a2-a3a4-5c971200421c
+WARN  2019-10-21 09:06:39,057 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Administrators' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:06:39,059 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Bac_si' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:06:39,059 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Thu_Ngan' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:06:39,060 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Tiep_Nhan' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:06:39,060 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Quan_Tri' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:07:31,688 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Administrators' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:07:31,689 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Bac_si' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:07:31,690 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Thu_Ngan' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:07:31,691 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Tiep_Nhan' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:07:31,691 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Quan_Tri' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:07:59,947 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Administrators' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:07:59,948 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Bac_si' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:07:59,948 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Thu_Ngan' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:07:59,949 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Tiep_Nhan' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:07:59,949 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Quan_Tri' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:08:14,224 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Administrators' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:08:14,225 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Bac_si' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:08:14,225 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Thu_Ngan' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:08:14,226 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Tiep_Nhan' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:08:14,227 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Quan_Tri' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:08:36,477 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Administrators' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:08:36,477 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Bac_si' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:08:36,478 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Thu_Ngan' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:08:36,478 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Tiep_Nhan' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:08:36,479 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Quan_Tri' in localization source 'KienTrucPhanMem'!
+WARN  2019-10-21 09:09:25,860 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'KienTrucPhanMem'!
